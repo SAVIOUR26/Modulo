@@ -22,7 +22,7 @@ class ChordGrid extends StatelessWidget {
         final isMinorOrDim = chord.quality != ChordQuality.major;
         return Container(
           decoration: BoxDecoration(
-            color: isTonic ? AppColors.brassDim.withOpacity(0.25) : AppColors.chordCell,
+            color: isTonic ? AppColors.brassDim.withValues(alpha: 0.25) : AppColors.chordCell,
             border: Border.all(color: isTonic ? AppColors.brassDim : AppColors.panelEdge),
             borderRadius: const BorderRadius.only(
               bottomLeft: Radius.circular(5),
