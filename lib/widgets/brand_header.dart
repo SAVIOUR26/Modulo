@@ -23,7 +23,7 @@ class BrandHeader extends StatelessWidget {
         Text(
           'Designed by Saviour Najuna · Powered by Thirdsan',
           textAlign: TextAlign.center,
-          style: TextStyle(fontSize: 10.5, color: AppColors.inkDim.withOpacity(0.8)),
+          style: TextStyle(fontSize: 10.5, color: AppColors.inkDim.withValues(alpha: 0.8)),
         ),
       ],
     );
